@@ -1,0 +1,7 @@
+#Log section
+logs:
+  - type: file
+    path: /var/log/inbeat/custom-campaigns.log
+    service: custom-search
+    source: go
+    sourcecategory: sourcecode
